@@ -10,7 +10,8 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 * valeryiatselesh@gmail.com
 * Discord: Valeryia (@valeryiatselesh)
 * [LinkedIn](https://www.linkedin.com/in/valeryiatselesh/)
-* [GitHub](https://github.com/valeryiatselesh)
+* [GitHub](https://github.com/valeryiatselesh) 
+
 ---
 ### Skills
 
@@ -34,7 +35,14 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 ### Code example 
 ```
 {
-  In progress...
+  function descendingOrder(n){
+  let arr = n.toString().split('');
+  let newArray = arr.sort(function(a, b) {
+      return b - a;
+   });
+  let newNumber = newArray.join('');
+  return parseInt(newNumber);
+  }
 }
 ```
 ---
@@ -48,6 +56,8 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 * Risk Management
 * Project Planning
 * Jira
+
+---
 ### Projects
 #### Landing page for yoga studio 
 * Preloader with animation
