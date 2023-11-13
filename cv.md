@@ -33,8 +33,7 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 
 ---
 ### Code example 
-```
-{
+```JavaScript
   function descendingOrder(n){
   let arr = n.toString().split('');
   let newArray = arr.sort(function(a, b) {
@@ -43,7 +42,6 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
   let newNumber = newArray.join('');
   return parseInt(newNumber);
   }
-}
 ```
 ---
 ### Experience
@@ -59,6 +57,16 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 
 ---
 ### Projects
+#### Landing page for bank
+All features were implemented using JavaScript. Key features:
+* Calculator
+* Timer
+* Tabs
+* Slider
+* Modal bound to timer and scroll 
+
+[Visit website](https://valeryiatselesh.github.io/bank-app/)\
+[See on Git](https://github.com/valeryiatselesh/bank-app)
 #### Landing page for yoga studio 
 * Preloader with animation
 * Scroll Animation using CSS & JS
@@ -80,7 +88,6 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 
 [Visit website](https://valeryiatselesh.github.io/online-store_primitive/)\
 [See on Git](https://github.com/valeryiatselesh/online-store_primitive)
-
 #### Game "Catch the bubble"
 Training project - game "Catch the bubble". Key features:
 * Ability to choose the time duration of one round
