@@ -61,6 +61,16 @@ Hey, I am Valeryia, young front-end developer. My main goal is to acquire new kn
 *June 2024 - present*
 
 ### Projects
+#### Landing page for bank
+All features were implemented using JavaScript. Key features:
+* Calculator
+* Timer
+* Tabs
+* Slider
+* Modal bound to timer and scroll 
+
+[Visit website](https://valeryiatselesh.github.io/bank-app/)\
+[See on Git](https://github.com/valeryiatselesh/bank-app)
 #### Landing page for yoga studio 
 * Preloader with animation
 * Scroll Animation using CSS & JS
