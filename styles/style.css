@@ -27,5 +27,144 @@ body {
 	scroll-behavior: smooth;
 }
 .wrapper {
-   padding: 0px 24px;
+   padding: 24px;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 24px;
+}
+.header__logo {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   padding-right: 30px;
+}
+.header__logo span {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: -0.01em;
+   text-align: left;
+}
+.header__menu {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 32px;
+}
+.header__menu a {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.01em;
+   color: #000000;
+}
+.about {
+}
+.about__container {
+}
+.about__info {
+}
+.about__descr {
+}
+.about__title {
+}
+.about__subtitle {
+}
+.about__text {
+}
+.about__contacts {
+}
+.contacts__title {
+}
+.contacts__list {
+}
+.contacts-socials__list {
+}
+.about__photo {
+}
+.skills {
+}
+.skills__container {
+}
+.skills__hard {
+}
+.skills__title {
+}
+.skills__list {
+}
+.skills__list-hard {
+}
+.skills__soft {
+}
+.skills__list-soft {
+}
+.code {
+}
+.code__container {
+}
+.experience {
+}
+.experience__container {
+}
+.experinece__logo {
+}
+.experience__info {
+}
+.experience__descr {
+}
+.experinece__title {
+}
+.experience__subtitle {
+}
+.experience__term {
+}
+.experience__skills {
+}
+.experience__list {
+}
+.projects {
+}
+.projects__container {
+}
+.projects__project {
+}
+.project__container {
+}
+.project__info {
+}
+.project__title {
+}
+.project__descr {
+}
+.project__list {
+}
+.project__buttons {
+}
+.project__website {
+}
+.project__github {
+}
+.project__img {
+}
+.education {
+}
+.education__container {
+}
+.education__university {
+}
+.education__item {
+}
+.education__logo {
+}
+.education__info {
+}
+.education__title {
+}
+.education__subtitle {
+}
+.education__term {
+}
+.education__course {
 }
