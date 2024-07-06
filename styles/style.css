@@ -1,0 +1,31 @@
+@charset "UTF-8";
+:root{
+	--tablet: 991.98px;
+	--mobile: 767.98;
+	--mobileSmall: 479.98;
+	--black: #000;
+	--blue: #007AFF;
+	--purple: #BE06FF;
+   --grey: #F4F5F6;
+   --white: #FFFFFF73;
+	--main-font: "Inter", sans-serif;
+	--primary-color: var(--black);
+	--accent-color-orange: var(--orange);
+	--accent-color-purple: var(--purple);
+   --background: var(--white);
+	--background-block: var(--grey);
+}
+html,
+body {
+   margin: 0 auto;
+   max-width: 1440px;
+   height: 100%;
+   font-family: var(--main-font);
+   font-size: 14px;
+   color: var(--primary-color);
+   background: var(--background);
+	scroll-behavior: smooth;
+}
+.wrapper {
+   padding: 0px 24px;
+}
