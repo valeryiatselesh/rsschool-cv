@@ -159,10 +159,14 @@ h2 {
 }
 .skills {
 }
-.skills__container {
+.skills__container,
+.code__container {
    padding: 40px;
    border-radius: 24px;
    background: rgba(244, 245, 246, 1);
+}
+.code__code {
+   width: 100px;
 }
 .skills__hard {
    padding-bottom: 32px;
