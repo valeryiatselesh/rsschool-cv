@@ -78,6 +78,7 @@ h2 {
 }
 .about__container {
    display: flex;
+   justify-content: space-between;
    gap: 16px;
 }
 .about__info {
@@ -326,6 +327,7 @@ h2 {
 }
 .project__buttons {
    display: flex;
+   align-items: flex-start;
    gap: 8px;
    padding-top: 32px;
    font-size: 16px;
@@ -422,4 +424,20 @@ h2 {
 }
 .footer__menu a {
    color: #000;
+}
+@media (max-width: 767px) {
+   .about__photo {
+      display: none;
+   }
+   .project__buttons {
+      flex-direction: column;
+   }
+   .education__container {
+      flex-direction: column;
+   }
+}
+@media (max-width: 670px) {
+   .project__img {
+      display: none;
+   }
 }
