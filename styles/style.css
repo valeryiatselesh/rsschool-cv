@@ -161,7 +161,8 @@ h2 {
 }
 .skills__container,
 .code__container,
-.experience__container {
+.experience__container,
+.education__container {
    padding: 40px;
    border-radius: 24px;
    background: rgba(244, 245, 246, 1);
@@ -367,20 +368,40 @@ h2 {
 .education {
 }
 .education__container {
+   display: flex;
+   gap: 60px;
 }
-.education__university {
+.education__title {
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 32px;
+   letter-spacing: -0.02em;
+}
+.education__university,
+.education__course {
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
 }
 .education__item {
+   display: flex;
+   gap: 24px;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.02em;
+   text-align: left;
 }
 .education__logo {
 }
 .education__info {
 }
-.education__title {
+.education__heading {
+   font-weight: 600;
 }
 .education__subtitle {
 }
 .education__term {
+   color: #00000080;
 }
 .education__course {
 }
