@@ -120,13 +120,13 @@ h2 {
    color: rgba(0, 0, 0, 1);
 }
 .contacts__phone {
-   background: url('/assets/icons/phone.svg') left 0 no-repeat;
+   background: url('./assets/icons/phone.svg') left 0 no-repeat;
 }
 .contacts__mail {
-   background: url('/assets/icons/mail.svg') left 0 no-repeat;
+   background: url('./assets/icons/mail.svg') left 0 no-repeat;
 }
 .contacts__discord {
-   background: url('/assets/icons/discord.svg') left 0 no-repeat;
+   background: url('./assets/icons/discord.svg') left 0 no-repeat;
 }
 .contacts-socials__list {
    display: flex;
