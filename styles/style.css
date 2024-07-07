@@ -26,6 +26,13 @@ body {
    background: var(--background);
 	scroll-behavior: smooth;
 }
+h1 {
+   padding-bottom: 8px;
+   font-size: 40px;
+   font-weight: 550;
+   line-height: 48px;
+   letter-spacing: -0.02em;
+}
 .wrapper {
    padding: 24px;
 }
@@ -63,26 +70,85 @@ body {
 .about {
 }
 .about__container {
+   display: flex;
+   gap: 16px;
 }
 .about__info {
+   flex: 1 1 60%;
+   padding: 72px 65px 56px 72px;
+   border-radius: 24px;
+   background: linear-gradient(to bottom, #E6E3F1, #E1D9EA, #EDDFF3);
 }
 .about__descr {
 }
 .about__title {
+   padding-bottom: 56px;  
+   color: rgba(0, 0, 0, 1);
 }
 .about__subtitle {
+   padding-left: 24px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: -0.01em;
+   background: url('/assets/icons/map.svg') left 2px no-repeat;
 }
 .about__text {
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: -0.01em;
+   padding-bottom: 32px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .about__contacts {
+   padding-top: 32px;
 }
 .contacts__title {
+   padding-bottom: 16px;
+   font-size: 16px;
+   font-weight: 550;
+   line-height: 19.36px;
+   letter-spacing: -0.02em;
 }
-.contacts__list {
+.contacts__list li {
+   padding-bottom: 8px;
+}
+.contacts__list > li > a {
+   padding-left: 28px;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.01em;
+   color: rgba(0, 0, 0, 1);
+}
+.contacts__phone {
+   background: url('/assets/icons/phone.svg') left 0 no-repeat;
+}
+.contacts__mail {
+   background: url('/assets/icons/mail.svg') left 0 no-repeat;
+}
+.contacts__discord {
+   background: url('/assets/icons/discord.svg') left 0 no-repeat;
 }
 .contacts-socials__list {
+   display: flex;
+   gap: 8px;
+}
+.contacts-socials__list li {
+   padding-top: 16px;
+}
+.contacts-socials__list li a{
+   text-align: center;
+   align-items: center;
+   padding: 14px 10px 6px 10px;
+   background: rgba(255, 255, 255, 1);
+   border-radius: 32px;
 }
 .about__photo {
+}
+.about__photo img{
+   max-width: 504px;
+   object-fit: cover;
+   width: 100%;
 }
 .skills {
 }
