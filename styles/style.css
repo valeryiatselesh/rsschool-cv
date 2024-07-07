@@ -255,26 +255,114 @@ h2 {
 .projects {
 }
 .projects__container {
+   
 }
+
 .projects__project {
+
 }
 .project__container {
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
+   border-radius: 24px;
+   margin-bottom: 16px;
+}
+.project__container_coffee {
+   background: #E1D4C9;
+}
+.project__container_yoga {
+   background: #0E0E0E;
+}
+.project__container_primitivo {
+   background: #DC7759;
+}
+.project__container_bubble {
+   background: linear-gradient(90deg, #92B8F0 0%, #E6A7CF 100%);
 }
 .project__info {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 40px 48px;
+}
+.project__info_dark {
+   color: #382D4B;
+}
+.project__info_light {
+   color: #FFFFFF;
 }
 .project__title {
+   padding-bottom: 24px;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 32px;
+   letter-spacing: -0.02em;
 }
-.project__descr {
+.project__title_dark {
+   color: #382D4B;
+}
+.project__title_light {
+   color: #FFFFFF;
+}
+.project__subtitle {
+   font-weight: 550;
+   padding-bottom: 16px;
 }
 .project__list {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 16.94px;
+}
+.project__list_dark {
+   color: #382D4BCC;
+}
+.project__list_light {
+   color: #FFFFFFCC;
 }
 .project__buttons {
+   display: flex;
+   gap: 8px;
+   padding-top: 32px;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+}
+.project__buttons a {
+   padding: 8px 16px;
+   border-radius: 48px;
 }
 .project__website {
+   background: #FFFFFF;
+   color: #000000;
 }
 .project__github {
+   background: #FFFFFF33;
+   color: #FFFFFF;
 }
 .project__img {
+   display: flex;   
+   align-items: center;
+   padding-right: 20px;
+}
+.project__img img {
+   width: 100%;
+   object-fit: cover;
+}
+.project__img_coffee img{
+   max-width: 320px;
+}
+.project__img_yoga img{
+   max-width: 320px;
+}
+.project__img_shop img{
+   max-width: 320px;
+}
+.project__img_bubble img{
+   max-width: 320px;
 }
 .education {
 }
